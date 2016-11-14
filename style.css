@@ -53,6 +53,14 @@ a {
   margin: 0;
 }
 
+.about:hover {
+  color: white;
+}
+
+.search:hover {
+  color: white;
+}
+
 .headertxt {
   text-align: center;
   margin: 0;
@@ -117,6 +125,18 @@ a {
 
 .links:hover img{
   background: #083452;
+}
+
+.twitter:hover {
+  background-color: #3b77d2;
+}
+
+.face:hover {
+  background-color: #3b77d2;
+}
+
+.instagram:hover {
+  background-color: #3b77d2;
 }
 
 .imglinks1 {
