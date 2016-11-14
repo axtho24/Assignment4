@@ -27,14 +27,32 @@ article {
   width: 80%;
   margin: 2.5em auto;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  background: #083452;
+  height: 25em;
+}
+
+
+/******************************CLASSES****************************/
+
+
 .logo{
   display: flex;
   flex:3;
+}
+
+.logoimg {
+  width:20px;
+  height:20px;
+  padding-right: 1em;
 }
 
 .logo2{
@@ -51,14 +69,6 @@ a {
   font-size: 5em;
   color: white;
   margin: 0;
-}
-
-.about:hover {
-  color: white;
-}
-
-.search:hover {
-  color: white;
 }
 
 .headertxt {
@@ -117,26 +127,6 @@ a {
   background: #d1d1d1;
   padding: .4em;
   color: white;
-}
-
-.links:hover {
-  background: #3b77d2;
-}
-
-.links:hover img{
-  background: #083452;
-}
-
-.twitter:hover {
-  background-color: #3b77d2;
-}
-
-.face:hover {
-  background-color: #3b77d2;
-}
-
-.instagram:hover {
-  background-color: #3b77d2;
 }
 
 .imglinks1 {
@@ -214,13 +204,6 @@ a {
   margin: .5em 6em;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  background: #083452;
-  height: 25em;
-}
-
 .botimages {
   display: flex;
 }
@@ -230,27 +213,9 @@ footer {
   transition: opacity 3s, color 3s;
 }
 
-.dude:hover {
-  opacity: 1;
-}
-
-.dude:hover span{
-  color: white;
-  transition: 3s;
-}
-
 .beer {
   opacity: .3;
   transition: opacity 3s, color 3s;
-}
-
-.beer:hover {
-  opacity: 1;
-}
-
-.beer:hover span{
-  color: white;
-  transition: color 3s;
 }
 
 .zach {
@@ -258,25 +223,9 @@ footer {
   transition: opacity 3s, color 3s;
 }
 
-.zach:hover {
-  opacity: 1;
-}
-
-.zach:hover span{
-  color: white;
-}
-
 .liquor {
   opacity: .3;
   transition: opacity 3s, color 3s;
-}
-
-.liquor:hover {
-  opacity: 1;
-}
-
-.liquor:hover span{
-  color: white;
 }
 
 .imgtext125 {
@@ -338,4 +287,70 @@ footer {
 
 .item5 {
   padding: 0em 0em 0em 1em;
+}
+
+
+/******************************HOVERS****************************/
+
+
+.about:hover {
+  color: white;
+}
+
+.search:hover {
+  color: white;
+}
+
+.links:hover img{
+  background: #083452;
+}
+
+.twitter:hover {
+  background-color: #3b77d2;
+}
+
+.face:hover {
+  background-color: #3b77d2;
+}
+
+.instagram:hover {
+  background-color: #3b77d2;
+}
+
+.links:hover {
+  background: #3b77d2;
+}
+
+.dude:hover {
+  opacity: 1;
+}
+
+.dude:hover span{
+  color: white;
+  transition: 3s;
+}
+
+.beer:hover {
+  opacity: 1;
+}
+
+.beer:hover span{
+  color: white;
+  transition: color 3s;
+}
+
+.zach:hover {
+  opacity: 1;
+}
+
+.zach:hover span{
+  color: white;
+}
+
+.liquor:hover {
+  opacity: 1;
+}
+
+.liquor:hover span{
+  color: white;
 }
